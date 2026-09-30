@@ -47,7 +47,7 @@ while user_money >0 and choice != 0:
         }
         return prices.get(choice, None)
     while True:
-        if choice < int(0) or choice > int(11):
+        if choice < int(-1) or choice > int(11):
             print("Invalid input. Please enter a number corresponding to the menu item.")
             continue
         #WHAT THE FUCK IS WRONG WITH THIS!!!
@@ -71,7 +71,7 @@ while user_money >0 and choice != 0:
                         continue
                 else:
                     print("You don't have enough money to buy this item.")
-                e
+                break
             else:
                 print("Invalid choice. Please select a valid item from the menu.")
         

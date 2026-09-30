@@ -1,24 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ABOUT ME</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Nicholai Blog</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>About Me</h1>
-    </header>
-    <main>
-        <p>Hello, I am a web developer.</p>
-    </main>
+  <header>
+    <marquee behavior="scroll" direction="left" scrollamount="6">Welcome to my personal blog! Take a look around and learn more about me.</marquee>
+    <h1>Niggs' Personal Blog</h1>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="goals.html">Goals</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <a href="hobbies.html">Check out my hobbies!</a>
-    a<footer>
-        <p>&copy; 2024 My Website</p>
-    </footer>
-    <script>
-        console.log("I am what i am");
-    </script>
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p>Hi, I am <strong>Niggs</strong>, a Computer Science student at <em>Cavite State University (CVSU)</em> in Cavite, Philippines. I made this blog to share a little about who I am, what I enjoy, and where I want to go.</p>
+      <p>Use the links above to visit the other pages.</p>
+    </section>
+
+    <section>
+      <h2>Quick Facts</h2>
+      <table>
+        <caption>Basic information</caption>
+        <thead>
+          <tr><th scope="col">Item</th><th scope="col">Details</th></tr>
+        </thead>
+        <tbody>
+          <tr><th scope="row">Name</th><td>Jhed Nicholai A. Terencio</td></tr>
+          <tr><th scope="row">School</th><td>Cavite State University</td></tr>
+          <tr><th scope="row">Course</th><td>Computer Science</td></tr>
+          <tr><th scope="row">Location</th><td>Cavite, Philippines</td></tr>
+          <tr><th scope="row">Motto</th><td>"You bleed in training so you don't bleed in battle"</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <marquee behavior="alternate" scrollamount="3">Thanks for visiting my blog!</marquee>
+    <p>&copy; 2026 Niggs. Laboratory #4, DCIT 21.</p>
+  </footer>
 </body>
 </html>
